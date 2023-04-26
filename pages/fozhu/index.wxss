@@ -1,0 +1,224 @@
+.content {
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.bg,.oper {
+    position: absolute;
+}
+
+.oper {
+    height: 74rpx;
+    left: 0;
+    top: 10%;
+    width: 100%;
+}
+
+.oper .center {
+    text-align: center;
+    width: 100%;
+}
+
+.oper .title {
+    color: #fff;
+    font-size: 38rpx;
+}
+
+.oper .count {
+    background-color: rgba(0,0,0,.6);
+    border-radius: 20rpx;
+    color: #f4dc9e;
+    display: inline-block;
+    font-size: 38rpx;
+    line-height: 38rpx;
+    margin-top: 30rpx;
+    padding: 20rpx;
+}
+
+.oper image {
+    display: block;
+    height: 59.2rpx;
+    width: 180.8rpx;
+}
+
+.slide-image {
+    height: 120rpx!important;
+    width: 120rpx!important;
+}
+
+swiper {
+    background: none;
+    height: 960rpx;
+    margin-top: 100rpx;
+    text-align: center;
+    width: 100%;
+}
+
+.first,.last {
+    height: 75px!important;
+    width: 75px!important;
+}
+
+.bottomImg {
+    bottom: 0;
+}
+
+.bottomImg,.headerImg {
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
+
+.headerImg {
+    top: 50rpx;
+}
+
+.yunImg {
+    animation: move 100s linear infinite;
+    animation-delay: 5s;
+    right: -200rpx;
+    top: 260rpx;
+}
+
+.yunImg,.yunImg2 {
+    height: 60rpx;
+    position: absolute;
+    width: 200rpx;
+    z-index: -1;
+}
+
+.yunImg2 {
+    animation: move2 100s linear infinite;
+    left: -200rpx;
+    top: 160rpx;
+    transform: scale(.6);
+}
+
+@-webkit-keyframes move2 {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(450px);
+    }
+}
+
+@keyframes move2 {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(450px);
+    }
+}
+
+.gongde {
+    font-size: 12pt;
+}
+
+.btn_share_wrap {
+    background-color: transparent;
+    position: fixed;
+}
+
+.btn_share_wrap,.music,.music0 {
+    height: 60rpx;
+    right: 30rpx;
+    top: 30rpx;
+    width: 60rpx;
+}
+
+.music,.music0 {
+    position: absolute;
+}
+
+.music {
+    transform: rotate(1turn);
+}
+
+.album-icon {
+    right: 100rpx;
+}
+
+.btn_sx {
+    background-color: transparent;
+    position: fixed;
+    right: 100rpx;
+}
+
+.album-icon,.beads-icon,.btn_sx {
+    height: 60rpx;
+    top: 30rpx;
+    width: 60rpx;
+}
+
+.album-icon,.beads-icon {
+    position: absolute;
+}
+
+.btn_cz {
+    background-color: transparent;
+    height: 60rpx;
+    position: fixed;
+    top: 30rpx;
+    width: 60rpx;
+}
+
+.beads-icon,.btn_cz {
+    right: 180rpx;
+}
+
+@-webkit-keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(359deg);
+    }
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(359deg);
+    }
+}
+
+.chuan {
+    animation: move 90s linear infinite;
+    bottom: 260rpx;
+    height: 60rpx;
+    position: absolute;
+    right: -200rpx;
+    width: 200rpx;
+    z-index: -1;
+}
+
+@-webkit-keyframes move {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-450px);
+    }
+}
+
+@keyframes move {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-450px);
+    }
+}

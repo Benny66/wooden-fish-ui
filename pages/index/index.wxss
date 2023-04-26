@@ -1,0 +1,88 @@
+.content {
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.bg,.oper {
+    position: absolute;
+}
+
+.oper {
+    height: 74rpx;
+    left: 0;
+    top: 10%;
+    width: 100%;
+}
+
+.oper .center {
+    text-align: center;
+    width: 100%;
+}
+
+.oper .title {
+    color: #fff;
+    font-size: 38rpx;
+}
+
+.oper .count {
+    background-color: rgba(0,0,0,.6);
+    border-radius: 20rpx;
+    color: #f4dc9e;
+    display: inline-block;
+    font-size: 38rpx;
+    line-height: 38rpx;
+    margin-top: 30rpx;
+    padding: 20rpx;
+}
+
+.oper image {
+    display: block;
+    height: 59.2rpx;
+    width: 180.8rpx;
+}
+
+.bowl {
+    height: 410.4rpx;
+    left: 50%;
+    margin-left: -250rpx;
+    position: absolute;
+    top: 53%;
+    width: 548rpx;
+}
+
+.stick {
+    height: 152rpx;
+    position: fixed;
+    right: -30rpx;
+    top: 48%;
+    transform: rotate(40deg);
+    transform-origin: right top;
+    width: 350rpx;
+}
+
+.checkbox-wrap {
+    bottom: 155rpx;
+    left: 0;
+    opacity: .9;
+    padding-left: 13rpx;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+
+.checkbox-wrap switch {
+    transform: scale(.6);
+}
+
+.wx-switch-input::before {
+    background-color: #ccc!important;
+}
+
+.checkbox-wrap text {
+    color: #fff;
+    font-size: 28rpx;
+    line-height: 40rpx;
+}

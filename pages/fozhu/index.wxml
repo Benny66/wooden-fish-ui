@@ -1,0 +1,49 @@
+<view class="content">
+    <image catchtap="konck" class="bg w100pr h100pr" src="/images/index/fz.png"></image>
+    <view class="oper flex flex-jsb flex-ac">
+        <view class="center">
+            <view class="title">电子念珠</view>
+            <view class="count">{{score}}</view>
+        </view>
+    </view>
+    <view style="padding: 250rpx;">
+        <swiper bindchange="change" circular="true" current="0" displayMultipleItems="8" duration="100" vertical="ture">
+            <swiper-item wx:for="{{beads}}">
+                <image class="slide-image" src="{{beadimg}}"></image>
+            </swiper-item>
+        </swiper>
+    </view>
+    <view class="tool">
+        <view bindtap="openaudio" class="tool-list">
+            <view>
+                <image mode="widthFix" src="{{audio?'../../images/audio.png':'../../images/audio-n.png'}}"></image>
+            </view>
+            <view class="text">声音</view>
+        </view>
+        <view bindtap="refreshClick" class="tool-list">
+            <view>
+                <image mode="widthFix" src="../../images/reset.png"></image>
+            </view>
+            <view class="text">重置</view>
+        </view>
+        <view bindtap="geClick" class="tool-list">
+            <view>
+                <image mode="widthFix" src="../../images/color.png"></image>
+            </view>
+            <view class="text">皮肤</view>
+        </view>
+    </view>
+    <view animation="{{agd1}}" class="gongde2">功德 + 1</view>
+    <view animation="{{agd2}}" class="gongde2">功德 + 1</view>
+    <view animation="{{agd3}}" class="gongde2">功德 + 1</view>
+    <view animation="{{agd4}}" class="gongde2">功德 + 1</view>
+    <view animation="{{agd5}}" class="gongde2">功德 + 1</view>
+    <view animation="{{agd6}}" class="gongde2">功德 + 1</view>
+    <view animation="{{agd7}}" class="gongde2">功德 + 1</view>
+    <view animation="{{agd8}}" class="gongde2">功德 + 1</view>
+    <view animation="{{agd9}}" class="gongde2">功德 + 1</view>
+    <view animation="{{agd0}}" class="gongde2">功德 + 1</view>
+    <button class="share-btn" hoverClass="none" openType="share">
+        <image class="w100pr h100pr" src="/images/share-btn.png"></image>
+    </button>
+</view>

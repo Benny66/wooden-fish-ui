@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/songbo/index",
+    "pages/fozhu/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "功德木鱼电子念珠",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#dbdbdb",
+    "selectedColor": "#f4dc9e",
+    "borderStyle": "black",
+    "backgroundColor": "#000000",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "木鱼",
+        "iconPath": "images/tabbar/my.png",
+        "selectedIconPath": "images/tabbar/my-s.png"
+      },
+      {
+        "pagePath": "pages/fozhu/index",
+        "text": "念珠",
+        "iconPath": "images/tabbar/fz.png",
+        "selectedIconPath": "images/tabbar/fz-s.png"
+      },
+      {
+        "pagePath": "pages/songbo/index",
+        "text": "颂钵",
+        "iconPath": "images/tabbar/sb.png",
+        "selectedIconPath": "images/tabbar/sb-s.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

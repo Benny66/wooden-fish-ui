@@ -1,0 +1,44 @@
+<view class="content">
+    <image catchtap="konck" class="back w100pr h100pr" src="/images/back.png"></image>
+    <view class="oper flex flex-jsb flex-ac">
+        <view class="center">
+            <view class="title">静心颂钵</view>
+            <view class="count">{{count}}</view>
+        </view>
+    </view>
+    <image catchtap="konck" class="bowl" src="/images/bowl.png"></image>
+    <image animation="{{animationData}}" catchtap="konck" class="stick" src="/images/stick.png"></image>
+    <view class="tool">
+        <view bindtap="openaudio" class="tool-list">
+            <view>
+                <image mode="widthFix" src="{{audio?'../../images/audio.png':'../../images/audio-n.png'}}"></image>
+            </view>
+            <view class="text">声音</view>
+        </view>
+        <view bindtap="resetcount" class="tool-list">
+            <view>
+                <image mode="widthFix" src="../../images/reset.png"></image>
+            </view>
+            <view class="text">重置</view>
+        </view>
+        <view bindtap="autoplay" class="tool-list">
+            <view>
+                <image mode="widthFix" src="{{auto?'../../images/auto.png':'../../images/auto-n.png'}}"></image>
+            </view>
+            <view class="text">自动</view>
+        </view>
+    </view>
+    <view animation="{{agd1}}" class="gongde">功德 + 1</view>
+    <view animation="{{agd2}}" class="gongde">功德 + 1</view>
+    <view animation="{{agd3}}" class="gongde">功德 + 1</view>
+    <view animation="{{agd4}}" class="gongde">功德 + 1</view>
+    <view animation="{{agd5}}" class="gongde">功德 + 1</view>
+    <view animation="{{agd6}}" class="gongde">功德 + 1</view>
+    <view animation="{{agd7}}" class="gongde">功德 + 1</view>
+    <view animation="{{agd8}}" class="gongde">功德 + 1</view>
+    <view animation="{{agd9}}" class="gongde">功德 + 1</view>
+    <view animation="{{agd0}}" class="gongde">功德 + 1</view>
+    <button class="share-btn" hoverClass="none" openType="share">
+        <image class="w100pr h100pr" src="/images/share-btn.png"></image>
+    </button>
+</view>

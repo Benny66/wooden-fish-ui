@@ -1,0 +1,105 @@
+.content {
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.back {
+    top: 0;
+}
+
+.back,.oper {
+    left: 0;
+    position: absolute;
+}
+
+.oper {
+    height: 74rpx;
+    top: 10%;
+    width: 100%;
+}
+
+.oper .center {
+    text-align: center;
+    width: 100%;
+}
+
+.oper .title {
+    color: #fff;
+    font-size: 38rpx;
+}
+
+.oper .count {
+    background-color: rgba(0,0,0,.6);
+    border-radius: 20rpx;
+    color: #f4dc9e;
+    display: inline-block;
+    font-size: 38rpx;
+    line-height: 38rpx;
+    margin-top: 30rpx;
+    padding: 20rpx;
+}
+
+.oper image {
+    display: block;
+    height: 59.2rpx;
+    width: 180.8rpx;
+}
+
+.bowl {
+    height: 435rpx;
+    left: 50%;
+    margin-left: -249rpx;
+    top: 51%;
+    width: 498rpx;
+}
+
+.bowl,.stick {
+    position: absolute;
+}
+
+.stick {
+    height: 303rpx;
+    right: 68rpx;
+    top: 37%;
+    transform: rotate(-25deg);
+    transform-origin: center center;
+    width: 77.4rpx;
+}
+
+.checkbox-wrap {
+    bottom: 155rpx;
+    left: 0;
+    opacity: .9;
+    padding-left: 13rpx;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+
+.checkbox-wrap switch {
+    transform: scale(.6);
+}
+
+.wx-switch-input::before {
+    background-color: #ccc!important;
+}
+
+.checkbox-wrap text {
+    color: #fff;
+    font-size: 28rpx;
+    line-height: 40rpx;
+}
+
+.share-btn {
+    background-color: initial;
+    bottom: 60rpx;
+    height: 78.6rpx;
+    left: 50%;
+    margin-left: -126.6rpx;
+    padding: 0;
+    position: absolute;
+    width: 253.2rpx;
+}
